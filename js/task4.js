@@ -30,7 +30,8 @@ class StringBuilder {
   }
 
   pad(str) {
-    this.prepend(str) + this.append(str);
+    this.prepend(str);
+    this.append(str);
   }
 }
 
